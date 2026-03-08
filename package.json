@@ -1,0 +1,30 @@
+{
+  "name": "playwrightautomationfw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test:ui": "npx playwright test tests/ui --project=chromium",
+    "test:api": "npx playwright test tests/api",
+    "test:all": "npx playwright test",
+    "test:debug": "npx playwright test --debug"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gopalyanamadala-collab/UIAutomationFW.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gopalyanamadala-collab/UIAutomationFW/issues"
+  },
+  "homepage": "https://github.com/gopalyanamadala-collab/UIAutomationFW#readme",
+  "devDependencies": {
+    "@playwright/mcp": "^0.0.68",
+    "@playwright/test": "^1.58.2",
+    "@types/node": "^25.3.5",
+    "dotenv": "^17.3.1"
+  }
+}
